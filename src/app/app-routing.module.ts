@@ -7,9 +7,8 @@ import { VerPaisComponent } from './pais/pages/ver-pais/ver-pais.component';
 
 const routes: Routes = [
     {
-        path: '',
+        path: 'pais',
         component: PaisComponent,
-        pathMatch: 'full'
     },
     {
         path: 'region',
